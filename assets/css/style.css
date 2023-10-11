@@ -1987,13 +1987,16 @@ margin-top: 1em;
 
 
 #services .card {
-  width: 190px;
+  
   height: 254px;
   border-color: #969aa1;
   transition: all 0.4s;
   border-radius: 10px;
   box-shadow: 0px 0px 7px 3px  rgba(88, 84, 84, 0.705);    
   margin-top: 30px;
+  margin-left: 10px;
+  font-size: 15px;
+  /*background: url(acapulco_logo.png);*/
 }
 
 
@@ -2013,7 +2016,10 @@ margin-top: 1em;
   justify-content: center;
   align-items: center;
   opacity: 1;
-  border-radius: 15px;
+  border-radius: 10px;
+  background: linear-gradient(to right, rgb(20, 30, 48), rgb(36, 59, 85));
+  color: white;
+  font-size: 23px;
 }
 
 #services .card:hover .first-content {
@@ -2032,7 +2038,8 @@ margin-top: 1em;
   transition: all 0.4s;
   text-align: center;
   transform: rotate(90deg) scale(-1);
-  font-size: 11px;
+  font-size: 14px;
+  
 }
 
 #services .card:hover .second-content {
@@ -2041,3 +2048,4 @@ margin-top: 1em;
   
   transform: rotate(0deg);
 }
+
